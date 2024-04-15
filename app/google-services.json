@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164503764823",
+    "project_id": "shieldpayapp",
+    "storage_bucket": "shieldpayapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164503764823:android:21e8ce561a241f2a4fc812",
+        "android_client_info": {
+          "package_name": "com.example.shieldpayapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgVUrq_Yl6Ig81Ip4D4wrACNWFKLa3AbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164503764823:android:045f907bb082fbb94fc812",
+        "android_client_info": {
+          "package_name": "com.shieldpay.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgVUrq_Yl6Ig81Ip4D4wrACNWFKLa3AbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

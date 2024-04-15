@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_area_tela"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@drawable/area_tela"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_entrar_area"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/btn_entrar"
+            android:clickable="true"
+            android:text="Entrar" />
+
+        <Button
+            android:id="@+id/btn_cadastra_area"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btncad"
+            android:clickable="true"
+            android:text="CADASTRE-SE"
+            android:textColor="@color/purple" />
+
+    </LinearLayout>
+
+</LinearLayout>
