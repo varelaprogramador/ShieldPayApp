@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/btncad"
             android:clickable="true"
-            android:text="CADASTRE-SE"
+            android:text="CRIAR CONTA"
             android:textColor="@color/purple" />
 
     </LinearLayout>

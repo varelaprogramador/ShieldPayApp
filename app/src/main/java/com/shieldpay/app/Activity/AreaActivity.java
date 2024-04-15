@@ -20,12 +20,19 @@ public class AreaActivity extends AppCompatActivity {
 
 
         botaoEntrar= findViewById(R.id.btn_entrar_area);
+        botaoEntrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent topageEnt = new Intent(AreaActivity.this, EntrarActivity.class);
+                startActivity(topageEnt);
+            }
+        });
         botaoCadastrar= findViewById(R.id.btn_cadastra_area);
         botaoCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent topage = new Intent(AreaActivity.this, CadastroActivity.class);
-                startActivity(topage);
+                Intent topageCad = new Intent(AreaActivity.this, CadastroActivity.class);
+                startActivity(topageCad);
             }
         });
 
